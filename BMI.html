@@ -8,6 +8,14 @@
 <body>
     <script>
         console.log("Hello World");
+        function calculate_BMI(weight , height){
+                var BMI = weight/ (height*height);
+                return BMI;
+}
+        var weight = 70;
+        var height = 6;
+        let bmi = calculate_BMI(weight,height);
+        console.log("The BMI of User is "+ bmi + "kg/m2");
     </script>
 </body>
 </html>
